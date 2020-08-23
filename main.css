@@ -4,6 +4,9 @@ html {
 body {
   width: 100%;
 }
+a{
+  color: #000;
+}
 .content {
   display: grid;
   grid-template-columns: 1fr 1fr;

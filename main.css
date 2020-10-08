@@ -9,9 +9,10 @@ a {
   grid-template-columns: 1fr 1fr;
   grid-gap: 2em;
   margin: 0 auto;
-  padding-right: 25%;
-  width: 950px;
+  padding-bottom: 3em;
   padding-top: 3em;
+  padding-right: 15%;
+  width: 1000px;
 }
 .icon img {
   float: right;
@@ -20,22 +21,25 @@ a {
 }
 .words {
   line-height: 1.75em;
+  width: 600px;
 }
 .words h1 {
   padding-bottom: 0.5em;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
   .content {
     grid-template-columns: 1fr;
     margin-left: -15px;
-    width: 96%;
-    max-width: 700px;
+    padding: 1em 0;
+    width: 100%;
   }
   .icon img {
     float: left;
   }
   .words {
     padding-left: 40px;
+    width: 88%;
+    max-width: 600px;
   }
 }

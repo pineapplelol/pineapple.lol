@@ -26,7 +26,13 @@ a {
 .words h1 {
   padding-bottom: 0.5em;
 }
-
+.partners {
+  padding-top: 0.5em;
+}
+.partners img {
+  width: 30%;
+  min-width: 175px;
+}
 @media (max-width: 1250px) {
   .content {
     grid-template-columns: 1fr;
